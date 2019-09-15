@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.tesji.radiobutton.controlador.CarreraController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="iniciar sesion">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="iniciar" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="practicas ">
+            <items>
+                  <Menu mnemonicParsing="false" text="ComboBox">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#itmCometa" text="cometa" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="RadioButton">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#itmCarreras" text="carreras" />
+                    </items>
+                  </Menu>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Ayuda">
+            <items>
+              <MenuItem mnemonicParsing="false" text="ayuda contenidos" />
+                  <MenuItem mnemonicParsing="false" text="asistencia y documentacion en linea" />
+                  <MenuItem mnemonicParsing="false" text="metodos abreviados al teclado" />
+                  <MenuItem mnemonicParsing="false" text="Report Issue..." />
+                  <MenuItem mnemonicParsing="false" text="Busqueda de indice de javadoc        mayus-F1" />
+                  <Menu mnemonicParsing="false" text="Referencias javadoc">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="vacío" />
+                    </items>
+                  </Menu>
+                  <MenuItem mnemonicParsing="false" text="Comprobar Actualizaciones " />
+                  <MenuItem mnemonicParsing="false" text="pagina de Inicio" />
+                  <MenuItem mnemonicParsing="false" text="Acerca de" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="271.0" layoutY="170.0" text="Bienvenido" />
+   </children>
+</AnchorPane>
